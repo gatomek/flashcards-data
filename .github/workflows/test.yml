@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - run: |
-          curl -XPOST -u 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 -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/gatomek/flashcards-mongodb-data-uploader/actions/workflows/build.yaml/dispatches --data '{"ref": "main"}'
+          curl -XPOST -u gatomek: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  -H "Accept: application/vnd.github.everest-preview+json" -H "Content-Type: application/json" https://api.github.com/repos/gatomek/flashcards-mongodb-data-uploader/actions/workflows/build.yaml/dispatches --data '{"ref": "main"}'
