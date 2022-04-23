@@ -1,5 +1,5 @@
 name: test
-on: repository_dispatch
+on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-18.04
